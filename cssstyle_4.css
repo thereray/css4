@@ -5,7 +5,7 @@ html,body {padding: 0;
 	       }
 
 .hair {background-color:#5fc0cd;
-	   height:60px;
+	   height:auto;
 	   color: rgb(255, 255, 255);
 	   margin:0;
 	   padding:0;
@@ -16,17 +16,20 @@ html,body {padding: 0;
 		  z-index:2;}
 
 .left {float:left;
-       padding-left:3%;
+       padding-left:2%;
+	   margin:10px;
 	   }
 
 .middle {text-align:center;
          font-size:22px;
-		 padding-top:16px;
+		 padding-top:8px;
+		 padding-bottom:8px;
 		 font-weight:bold;
 		 }
 
 .right {float:right;
-        padding-right:3%;}
+        padding-right:2%;
+		margin:10px;}
 
 .main {height:80px;
 	   background-color:#FFFFFF;
